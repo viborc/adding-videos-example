@@ -11,7 +11,7 @@ const Hero = () => {
             <p className="text-xl mb-10">Harness the power of artificial intelligence to streamline your business processes.</p>
             <Button size="lg" variant="secondary">Get Started</Button>
           </div>
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 space-y-6">
             <div className="aspect-w-16 aspect-h-9">
               <iframe 
                 className="w-full h-[400px] rounded-lg shadow-lg"
@@ -20,6 +20,19 @@ const Hero = () => {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowFullScreen>
               </iframe>
+            </div>
+            <div className="aspect-w-16 aspect-h-9">
+              <video 
+                className="w-full h-[400px] rounded-lg shadow-lg object-cover"
+                src="/mars-video-nasa.mp4"
+                title="Mars Video"
+                autoPlay
+                loop
+                muted
+                playsInline
+              >
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>
