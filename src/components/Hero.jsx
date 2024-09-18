@@ -15,7 +15,7 @@ const Hero = () => {
             <div className="aspect-w-16 aspect-h-9">
               <iframe 
                 className="w-full h-[400px] rounded-lg shadow-lg"
-                src="https://www.youtube.com/embed/7I5AOu6jVVk" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
                 title="AI SaaS Demo Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowFullScreen>
